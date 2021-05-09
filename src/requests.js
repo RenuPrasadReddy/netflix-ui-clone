@@ -15,11 +15,11 @@ export default requests;
 export const titles = [
   "NETFLIX ORIGINALS",
   "Trending",
-  // "Top Rated",
-  // "Action Movies",
-  // "Comedy Movies",
-  // "Horror Movies",
-  // "Romance Movies",
-  // "Documentaries",
+  "Top Rated",
+  "Action Movies",
+  "Comedy Movies",
+  "Horror Movies",
+  "Romance Movies",
+  "Documentaries",
 ];
 export const genresList = Object.values(requests);

@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const requests = {
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_network=123`,
@@ -15,11 +15,11 @@ export default requests;
 export const titles = [
   "NETFLIX ORIGINALS",
   "Trending",
-  // "Top Rated",
-  // "Action Movies",
-  // "Comedy Movies",
-  // "Horror Movies",
-  // "Romance Movies",
-  // "Documentaries",
+  "Top Rated",
+  "Action Movies",
+  "Comedy Movies",
+  "Horror Movies",
+  "Romance Movies",
+  "Documentaries",
 ];
 export const genresList = Object.values(requests);

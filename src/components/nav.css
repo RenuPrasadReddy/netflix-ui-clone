@@ -1,0 +1,33 @@
+.nav {
+  height: 30px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: aqua; */
+  /* as we've fiven posotion fixed, space-between doesn't work as expected so give width:100% */
+
+  transition: all 0.5s ease-in;
+}
+
+.nav_black {
+  background-color: #111;
+}
+
+.nav_logo {
+  /* margin: 20px; */
+  /* either use margin or position and left/right property to put the nav items */
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav_avatar {
+  /* margin: 20px; */
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
